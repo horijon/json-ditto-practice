@@ -1,0 +1,17 @@
+{
+  "firstName": "firstName",
+  "lastName": "lastName",
+  "address": {
+    "zip": "zipcode",
+    "state": "state"
+  },
+  "telecom": {
+    "output": [[]],
+    "innerDocument": "telecom",
+    "presequisite": "!!innerResult.code",
+    "mappings": {
+      "code": "code",
+      "type": "type"
+    }
+  }
+}
