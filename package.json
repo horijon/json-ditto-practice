@@ -6,8 +6,18 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/index.js",
-    "star": "node ./src/test.js"
+    "elation-to-fhir": "node src/elation-to-fhir.js",
+    "fhir-to-elation": "node src/fhir-to-elation.js",
+    "athena-to-fhir": "node src/athena-to-fhir.js",
+    "fhir-to-athena": "node src/fhir-to-athena.js",
+    "perk": "node ./src/perk.js",
+    "testJs": "node ./src/test.js",
+    "category": "node src/category-perk.js"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "@perpk/json-xform": "^1.1.0",
+    "json-ditto": "^1.2.9"
+  }
 }
